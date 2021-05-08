@@ -41,3 +41,89 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+body{
+    background-color: gainsboro;
+}
+.warp{
+    width: 1080px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 50px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+
+}
+.header{  
+    display: flex;
+    padding: 30px 50px;
+}
+.my{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-top: 15px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+.content{
+    margin: 20px 50px;
+}
+.content h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+.content p{
+    margin:10px;
+    font-size: 16px;
+    display: block;
+}
+.social{
+    padding: 5px;
+}
+.social a{
+    padding-left: 10px;
+}
+.social img{
+    width: 30px;
+}
+.sklls{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.sklls h2{
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.sklls-menu{
+    display: flex;
+    justify-content: space-around;
+}
+.sklls-menu ul{
+    width: 280px;
+    border-top: gray solid 3px;
+}
+.sklls-menu h3{
+    text-align: left;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sklls-menu h4{
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.sklls-menu p{
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.sklls-menu li{
+    list-style-type:disc;
+}
+.sklls-box{
+    padding-left: 30px;
+}
