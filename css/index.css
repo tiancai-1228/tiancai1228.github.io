@@ -77,11 +77,21 @@ body{
     font-size: 16px;
     display: block;
 }
+.content a{
+    color: black;
+    text-decoration: none;
+}
+.content a:hover{
+    opacity: 0.7;
+}
 .social{
     padding: 5px;
 }
 .social a{
     padding-left: 10px;
+}
+.social a :hover{
+    opacity: 0.7;
 }
 .social img{
     width: 30px;
@@ -120,6 +130,7 @@ body{
     text-align: left;
     font-size: 14px;
     line-height: 1.5;
+    padding: 5px;
 }
 .sklls-menu li{
     list-style-type:disc;
