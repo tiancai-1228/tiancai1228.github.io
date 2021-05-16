@@ -76,6 +76,8 @@ body{
     margin:10px;
     font-size: 16px;
     display: block;
+    line-height: 1.5;
+
 }
 .content a{
     color: black;
@@ -97,13 +99,21 @@ body{
     width: 30px;
 }
 .sklls{
-    margin-bottom: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
+
 }
-.sklls h2{
+hr{
+    margin-top: 10px;
+    height: 2px;
+    background-color: gray;
+    margin-bottom: 30px;
+}
+.title{
     text-align: center;
-    font-size: 26px;
+    font-size: 32px;
     font-weight: bold;
+    width: 80%;
+    margin: 0 auto;
     margin-bottom: 20px;
 }
 .sklls-menu{
@@ -138,3 +148,57 @@ body{
 .sklls-box{
     padding-left: 30px;
 }
+.Exp{
+    margin: 0;
+    text-align: center;
+}
+
+.Exp-menu{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px  20px;
+    text-align-last: left;
+}
+.Exp-menu li h3{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+.Exp-menu li::before{
+    content: "";
+    position: absolute;
+    left: -6px;
+    width: 10px;
+    height: 10px;
+    background: gray;
+    border: 2px solid lightblue;
+    border-radius: 50%;
+    z-index: 1;
+   
+  }
+.Exp-menu li::after{
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #888;
+    height: 60%;
+    z-index: 0;
+    top: 0;
+    left: 0;
+}
+.MyWork{
+    margin-bottom: 60px;
+}
+.footer{
+    width: 80%;
+    font-size: 14px;
+    margin: 0 auto;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
