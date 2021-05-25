@@ -192,6 +192,28 @@ hr{
 .MyWork{
     margin-bottom: 60px;
 }
+.side-project li{
+    display: flex;
+}
+.side-project img{
+    width: 500px;
+    margin-left: 10px;
+}
+.workconten{
+    margin: 10px;
+}
+.workconten h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.workconten p{
+    width: 80%;
+    margin: 20px auto;
+    line-height: 1.5;
+    font-size: 16px;
+}
 .footer{
     width: 80%;
     font-size: 14px;
